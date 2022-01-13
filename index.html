@@ -19,16 +19,28 @@
 
 <body>
 
+    <!-- PreLoading Block -->
+    <div id="Loader" >
+        <img src="Assets/loader.gif" alt="Assets">
+    </div>
+
     <!-- Navigation Block -->
-    <nav id="navBar" class=".nav-fixed">
+    <nav id="navBar" class="nav-fixed">
         <img id="logo" src="Assets/logo.png" alt="logo">
-        <ul>
+
+        <img id="menu_button" onclick="on_menu_button_click();" src="Assets/icons/white_menu_icon.png" alt="Menu">
+ 
+        <ul id="menu">
             <li><a>intro</a></li>
             <li><a>service</a></li>
             <li><a>Team</a></li>
             <li><a>Pricing</a></li>
             <li><a id="sign_up_button">Sign Up</a></li>
+            <li id="Up_arrow" onclick="on_menu_back_click();"><img id="up_icon" src="Assets/icons/up_icon.png" alt="Menu"></li>
         </ul>
+        
+        
+
     </nav>
     <!-- End Navigation Block -->
 
