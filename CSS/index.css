@@ -51,8 +51,8 @@ Landing Page
 #background_image {
   position: absolute;
   z-index: -1;
-  height: 120%;
-  width: 100%;
+  height: 140%;
+  width: 100vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -271,12 +271,17 @@ Cards Block
   justify-content: center;
 }
 
+.background_div{
+  margin: 0;
+  padding: 0;
+  display: contents;
+}
+
+
 #white_background {
   position: absolute;
-  width: 100%;
-  height: 50vh;
-  background-image: url("/Assets/white_back.svg");
-  margin-top: 5vh;
+  width: 100vw;
+  margin-top: 11vh;
   z-index: -1;
   transform: scale(1.2);
 }
@@ -595,12 +600,12 @@ Service Block
 }
 
 
-#end {  
-  height: 12vh;
-  width: 100%;
-  background-image: url("/Assets/gray_back.svg");
-  padding: 0px;
-  transform: scale(1.2);
+#end {
+  position: absolute;
+  width: 100vw;
+  margin-top: -40vh;
+  z-index: -1;
+  transform: scale(1);
 }
 
 /* Animation */
